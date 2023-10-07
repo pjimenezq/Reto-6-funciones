@@ -533,5 +533,9 @@ if __name__=="__main__":
 ## Noveno punto
 9. Consultar qué es y cómo funciona pip en python.
 
+Pip es un gestor de paquetes para Python, es decir que este cumple con la función de instalar y administrar paquetes en Python de forma eficiente. 
+Este regularmente se instala a la vez que uno instala Python. Pip facilita y hace eficaz el uso de librerías ya que hace que la persona que necesite utilizar la librería de un tercero no tenga que acceder directamente a la página del fabricante, descargar la librería, colocarla en el proyecto manualmente y volverla a descargar cada vez que tenga una nueva actualización.
+Para instalar los paquetes, se ejecuta la consola de windows (win + r y luego se escribe cmd + enter) y allí se escribe “pip install” +”nombre del paquete”. Asimismo, para mostrar los paquetes instalados se escribe “pip list”.
+
 ## Décimo punto
 10. Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
