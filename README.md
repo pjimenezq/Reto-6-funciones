@@ -539,3 +539,17 @@ Para instalar los paquetes, se ejecuta la consola de windows (win + r y luego se
 
 ## Décimo punto
 10. Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
+Como se estableció anteriormente, para instalar los módulos se debe escribir en la consola de windows  _pip install nombre_. Donde _nombre_, es el nombre del paquete que se busca instalar. Por ejemplo: _pip install numpy_.
+Las librerías más reconocidas son:
+* Matplotlib: Genera una gran variedad de gráficos de calidad.
+* TensorFlow: Fue desarrollada por Google y es utilizada para el cálculo numérico y en el Deep Learning.
+* PyTorch: Desarrollado por Facebook y empleado en el cálculo numérico.
+* Keras: Para el desarrollo de modelos de aprendizaje profundo.
+* Scikit-learn: Para la construcción de modelos de aprendizaje automático o machine learning y para el análisis de datos.
+* Pandas: Utilizada en Data Science, para el análisis y la manipulación de datos.
+* Seaborn: Permite la visualización de datos estadísticos.
+* NumPy: Especializada en cálculo numérico y análisis de datos.
+
+## Referencias
+https://www.programaenpython.com/avanzado/gestion-de-dependencias-en-python-con-pip/#Instalar_dependencias_con_pip
+https://immune.institute/sin-categorizar/librerias-python-que-son/
