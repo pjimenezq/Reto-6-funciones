@@ -1,6 +1,8 @@
 # Reto 6
 Para este reto, se hizo un programa individual para cada uno de los puntos.
 
+## Primer punto
+
 1. Dado la figura de la imagen, desarrolle:
 
 ![image](https://github.com/pjimenezq/Reto-6-funciones/assets/141860508/2919d6e2-8839-435b-9553-410359e772e7)
@@ -55,7 +57,9 @@ if __name__=="__main__":
     print("Cuando r1 mide "+str(radioUno)+ ", r2 mide "+str(radioDos)+ " y h mide "+str(altura)+ ", el área superficial total de la figura es: "+ str(areaSuperficialTotal))
 
 ```
-    
+
+## Segundo punto
+
 2. Dado la figura de la imagen, desarrolle:
 
 ![image](https://github.com/pjimenezq/Reto-6-funciones/assets/141860508/6f32a23d-3854-4b45-9913-ad409b2daa0d)
@@ -109,9 +113,12 @@ if __name__=="__main__":
     print("Cuando r mide "+str(radio)+ ", a mide "+str(altura)+ " y b mide "+str(base)+ ", el perímetro total de la figura es: "+ str(perimetroTotal))
 ```
 
+## Tercer punto
+
 3. Diseñe una función que calcule la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
 
 **Código**
+
 ```
 #Una función que calcula la cantidad de carne de aves en kilos si se tienen N gallinas, M gallos y K pollitos cada uno pesando 6 kilos, 7 kilos y 1 kilo respectivamente.
 
@@ -139,9 +146,12 @@ if __name__=="__main__":
     carneAves=cantidadCarne(cantidadGallinas,cantidadGallos,cantidadPollitos)
     print("La cantidad total de carne de aves en kilos es "+str(carneAves)+" cuando hay "+str(cantidadGallinas)+" gallinas, "+str(cantidadGallos)+" gallos y "+str(cantidadPollitos)+" pollitos.")
 ```
+## Cuarto punto
+
 4. Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
 
 **Código**
+
 ```
 #Problema planteado: Mi mamá me manda a comprar P panes a 300 cada uno, M bolsas de leche a 3300 cada una y H huevos a 350 cada uno. Hacer un programa que me diga las vueltas (o lo que quedo debiendo) cuando me da un billete de B pesos.
 
@@ -173,9 +183,12 @@ if __name__=="__main__":
     else:
         print("Si compró "+  str(cantidadPan)+ " panes, "+str(cantidadLeche)+ " bolsas de leche y " +str(cantidadHuevo)+ " huevos pagando con un billete de " + str(billete) +", usted queda debiendo " + str(-vueltasCompra)+ " pesos.")
 ```
+## Quinto punto
+
 5. Haga un programa que utilice una función para calcular el valor de un préstamo C usando interés compuesto del i por n meses.
 
 **Código**
+
 ```
 #Hacer un programa que utilice una función para calcular el valor de un préstamo c usando interés compuesto del i por n meses.
 
@@ -195,9 +208,12 @@ if __name__=="__main__":
     total=valor(capitalInicial,interes,meses)
     print("El valor del préstamo cuando el capital inicial es " +str(capitalInicial)+ ", los intereses mensuales son de " +str(interes)+ " y los meses son "+str(meses)+ ", es de "+str(total))
 ```
+## Sexto punto
 
 6. El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pasen D días a partir de hoy, si el número de contagiados actuales es C.
+   
 **Código**
+
 ```
 #Problema planteado: El número de contagiados de Covid-19 en el país de NuncaLandia se duplica cada día. Hacer un programa que diga el número total de personas que se han contagiado cuando pase D días a partir de hoy, si el número de contagiados actuales es C.
 
@@ -217,6 +233,8 @@ if __name__=="__main__":
     print("Si el número de contagiados actuales es "+str(actuales)+ " cuando pasen " +str(dias)+ " días a partir de hoy, el número total de personas contagiadas será " +str(personasContagiadas))
 
 ```
+## Séptimo punto
+
 7. Escriba un programa que pida 5 números reales y calcule las siguientes operaciones usando una función para cada una:
 
 * El promedio
@@ -473,9 +491,12 @@ def potenciaMayorElevadoMenor(a:float, b:float, c:float, d:float, e:float)->floa
     mayorElevadoMenor=quinto**primero
     return mayorElevadoMenor
 ```
+## Octavo punto
+
 8. Para el punto anterior incluir las funciones en un archivo independiente e importarlas para su uso.
 
 **Código**
+
 ```
 import PuntoSieteFunciones #Importando las funciones realizadas en el punto 7
 if __name__=="__main__":
@@ -509,6 +530,8 @@ if __name__=="__main__":
     print("La raíz cúbica del menor número es " + str(raizCubicaMenor))
 
 ```
+## Noveno punto
 9. Consultar qué es y cómo funciona pip en python.
 
+## Décimo punto
 10. Hacer un listado de módulos populares para python que se puedan instalar com pip y consultar cómo instalarlos.
